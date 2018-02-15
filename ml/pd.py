@@ -35,8 +35,8 @@ class Categorical:
     # pi = distribution param
     def __init__(self, dist):
         self.dist = dist
-        self.ex = dist  # <x>
-        self.ex2 = dist  # <x^2>
+        self.ex = dist  # <x>の配列
+        self.ex2 = dist  # <x^2>の配列
 
 
 class Poission:
